@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="workstation" name="netapp.BoardAnalyzeControllerTests" tests="1" time="1.07" timestamp="2013-03-28T19:47:04">
+  <properties />
+  <testcase classname="netapp.BoardAnalyzeControllerTests" name="testPatternMatch" time="1.046">
+    <error message="No such property: params for class: netapp.BoardAnalyzeController&#xa;Possible solutions: params" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: params for class: netapp.BoardAnalyzeController
+Possible solutions: params
+	at netapp.BoardAnalyzeControllerTests.testPatternMatch(BoardAnalyzeControllerTests.groovy:15)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testPatternMatch--
+]]></system-out>
+  <system-err><![CDATA[--Output from testPatternMatch--
+]]></system-err>
+</testsuite>

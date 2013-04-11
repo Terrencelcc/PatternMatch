@@ -1,0 +1,37 @@
+<grails>
+  <resources>
+    <resource>org.grails.plugin.resource.CSSRewriterResourceMapper</resource>
+    <resource>JQueryTagLib</resource>
+    <resource>grails.plugin.cache.CacheTagLib</resource>
+    <resource>JQueryConfig</resource>
+    <resource>org.grails.plugin.resource.CSSPreprocessorResourceMapper</resource>
+    <resource>JQueryResourceTagLib</resource>
+    <resource>DefaultCacheConfig</resource>
+    <resource>grails.plugin.databasemigration.DbdocController</resource>
+    <resource>JQueryService</resource>
+    <resource>org.grails.plugin.resource.BundleResourceMapper</resource>
+    <resource>grails.plugin.cache.GrailsCacheAdminService</resource>
+    <resource>JQueryPluginResources</resource>
+    <resource>org.grails.plugin.resource.ResourceTagLib</resource>
+    <resource>ResourcesBootStrap</resource>
+    <resource>grails.plugin.cloudfoundry.CloudFoundryTagLib</resource>
+    <resource>DbdocUrlMappings</resource>
+    <resource>ApplicationResources</resource>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>netapp.BoardAnalyzeController</resource>
+  </resources>
+  <plugins>
+    <plugin>JqueryGrailsPlugin</plugin>
+    <plugin>CloudSupportGrailsPlugin</plugin>
+    <plugin>CloudFoundryGrailsPlugin</plugin>
+    <plugin>CacheGrailsPlugin</plugin>
+    <plugin>DatabaseMigrationGrailsPlugin</plugin>
+    <plugin>HibernateGrailsPlugin</plugin>
+    <plugin>ResourcesGrailsPlugin</plugin>
+  </plugins>
+</grails>

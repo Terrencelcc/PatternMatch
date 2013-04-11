@@ -1,0 +1,17 @@
+Testsuite: netapp.BoardAnalyzeControllerTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 1.07 sec
+------------- Standard Output ---------------
+--Output from testPatternMatch--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testPatternMatch--
+------------- ---------------- ---------------
+
+Testcase: testPatternMatch took 1.041 sec
+	Caused an ERROR
+No such property: params for class: netapp.BoardAnalyzeController
+Possible solutions: params
+groovy.lang.MissingPropertyException: No such property: params for class: netapp.BoardAnalyzeController
+Possible solutions: params
+	at netapp.BoardAnalyzeControllerTests.testPatternMatch(BoardAnalyzeControllerTests.groovy:15)
+
